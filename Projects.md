@@ -1,5 +1,17 @@
 # Projects
 
+- [Projects](#projects)
+  - [Rolling dice](#rolling-dice)
+  - [Tic tac toe](#tic-tac-toe)
+  - [Quiz app](#quiz-app)
+  - [Rock Paper Scissors](#rock-paper-scissors)
+  - [Hangman](#hangman)
+  - [Typing speed test](#typing-speed-test)
+  - [To do list](#to-do-list)
+  - [Passwords manager](#passwords-manager)
+  - [Magic Ball](#magic-ball)
+  - [Book store project](#book-store-project)
+  
 ## Rolling dice
 
 ```
@@ -109,7 +121,10 @@ Draw hangman if user can not guess the word.
 ## Typing speed test
 
 ```
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+sed do eiusmod tempor incididunt ut labore et dolore magna 
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+ullamco laboris nisi ut aliquip ex ea commodo consequat. "
 
 > type the following text. How fast can you type?
 ```
@@ -124,13 +139,13 @@ Measure users typing abilities with time and accuracy!
 - Ask user to type it as fast as it can. You will measure how long user types, so better to record a time before you start!
 - Measure time, and accuracy. Print your results to user. 
 
-## Word/ sentence/ counter
+<!-- ## Word/ sentence/ counter
 
 ```
 ```
 
 **Description**
-**Objectives**
+**Objectives** -->
 
 ## To do list
 
@@ -205,13 +220,13 @@ Make a passwords manager app where you keep passwords of apps, websites, and any
 - Add should add a new password, where each info can be asked one by one or at once
 - Multiple users can use this app, keep a different file for each
 
-## Download images from internet
+<!-- ## Download images from internet
 
 ```
 ```
 
 **Description**
-**Objectives**
+**Objectives** -->
 
 ## Magic Ball
 
@@ -250,11 +265,28 @@ Make a python app that answers user's questions with yes and no! Your app should
 ## Book store project
 
 ```
-
+> Welcome to book store app. 
+> What do you want to do?
+    - list
+    - rent
+    - return
 ```
 
 **Description**
 
 Make a book store app where books can be rented
+
 **Objectives**
 
+- Make a dataset of books, and keep a set of attributes for each book, such as name, category, availability, etc.
+- Print user a message, ask to choose of options:
+  - list
+  - rent
+  - return
+- Based on the option print or ask for input. 
+  - If it user wants list, list available books.
+  - If return, get book name and make the book available.
+  - If rent, get the book name and make the book unavailable.
+  - If user wants a book that is unavailable, print that accordingly.
+- You should also keep a record of who rented which books, when rented and returned.
+- You app should also have a function to print stats on popular books, rent durations, etc.
